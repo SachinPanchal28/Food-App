@@ -1,7 +1,10 @@
 
+import { memo } from "react";
 import Meal from "./Meal";
 
 const Home = ({availableMeals}) => {
+
+  console.log("===============Home Component================");
 
   return ( <>
     <div id="meals">
@@ -12,4 +15,4 @@ const Home = ({availableMeals}) => {
   </> );
 }
 
-export default Home;
+export default memo(Home);

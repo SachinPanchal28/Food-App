@@ -211,6 +211,7 @@ h1 {
   gap: 1rem;
 }
 
+
 .button {
   font: inherit;
   cursor: pointer;
@@ -254,6 +255,25 @@ h1 {
 
 .modal::backdrop {
   background-color: rgba(0, 0, 0, 0.55);
+}
+
+.cancel-button {
+  background-color: white;
+  margin-right: 1rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.modal-footer {
+  display: flex;
+  height: 2.5rem;
+  justify-content: end;
+}
+
+.control-error{
+  color: rgb(214, 42, 42);
 }
 
 @keyframes fade-slide-up {

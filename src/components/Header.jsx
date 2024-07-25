@@ -3,6 +3,7 @@ import FoodImage from '../assets/logo.jpg';
 const Header = ({cartItemsCount, showCartItems}) => {
 
   
+  console.log("===============Header Component================");
 
   return ( <>
     <div id="main-header">
