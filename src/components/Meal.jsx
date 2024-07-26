@@ -1,8 +1,10 @@
-import { useContext } from "react";
+import { memo, useContext } from "react";
 import { CartContext } from "../store/CartContext";
 
 const Meal = ({ meal }) => {
   const {onAddToCart} = useContext(CartContext);
+  console.log("===============Meal Component================");
+
 
   return (<div className="meal-item">
     <article >

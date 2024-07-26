@@ -4,6 +4,9 @@ import { createPortal } from "react-dom";
 const Modal = ({ isOpen, children, onClose }) => {
   const dialog = useRef();
 
+  console.log("===============Modal Component================");
+
+
   useEffect(() => {
     if (isOpen) {
       dialog.current.showModal();
